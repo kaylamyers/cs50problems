@@ -1,5 +1,5 @@
 def main():
-    t = str(input("what time is it, homes? "))
+    t = str(input("what time is it? "))
 
     if convert(t) >= 7 and convert(t) <= 8:
         print("breakfast time")
