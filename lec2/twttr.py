@@ -1,5 +1,5 @@
 def main():
-    tweet = str(input("mm whatcha say: "))
+    tweet = str(input("type a tweet: "))
     print(cons(tweet))
 
 def cons(tweet):
