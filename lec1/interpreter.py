@@ -1,4 +1,4 @@
-math = input("type a math problem, homie: ")
+math = input("type a math problem: ")
 
 parts = math.split(" ", 2) # splitting user input into 3 sections
 
