@@ -1,15 +1,9 @@
-name = input("what's ur name homie? ").strip().capitalize().title()  # ask user for their name
+name = input("what's ur name? ").strip().capitalize().title()  # ask user for their name
 # strip removes excess user input white space
 # captializes only applies to first letter, not if you have multiple words
 # title capitalizes first letter of all words (dont need capitalize funtion if u have this)
 
 print(f"hello, {name}")
-
-"""
-yoooo what up 
-i love block comments
-toungue sticky out face eeehhhhhh
-"""
 
 # split users name into first and last
 name = input("what's ur name homie? ").strip().title()  # ask user for their name
