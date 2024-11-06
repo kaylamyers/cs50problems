@@ -7,11 +7,6 @@ class PDF(FPDF):
         self.cell(0, 60, "CS50 Shirtificate", align="C")
         self.ln(30)
 
-
-def main():
-    name = input("name on shirt: ")
-    label(name)
-    
 def label(name):
     pdf = PDF()
     pdf.add_page()
@@ -20,7 +15,10 @@ def label(name):
     pdf.cell(0, 225, f'{name} took CS50', align="C")
     pdf.output("shirtificate.pdf")
 
+def main():
+    name = input("name on shirt: ")
+    label(name)
+    
 
 if __name__ == "__main__":
     main()
-
